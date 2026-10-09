@@ -34,10 +34,10 @@
 
 <p>This policy explains what information the Voxelia mobile game ("the game", "we", "us") collects, how it is used, and the choices you have. Voxelia is developed by <strong>Wasilisk</strong>.</p>
 
-<p>In short: the game itself has no accounts, does not ask for your name, email or location, and does not run its own servers. Your puzzle progress is stored on your device. The game shows optional rewarded video ads through Google AdMob, and Google collects some device data to serve those ads.</p>
+<p>In short: the game itself has no accounts, does not ask for your name, email or location, and does not run its own servers. Your puzzle progress is stored on your device and, if you are signed in to Google Play Games, backed up to your Google account. The game shows optional rewarded video ads through Google AdMob, and Google collects some device data to serve those ads.</p>
 
 <h2>1. Information stored on your device</h2>
-<p>The game keeps a save file on your device with your puzzle progress (solved levels, stars, unfinished grids, unlocked packs, the hints you have left, which tips you have seen, the day you first opened the Daily Hall) and your settings (music, sound, haptics, language, graphics and similar options). This file stays on your device and is not sent to us. Uninstalling the game or clearing its data deletes it.</p>
+<p>The game keeps a save file on your device with your puzzle progress (solved levels, stars, unfinished grids, unlocked packs, the hints you have left, which tips you have seen, the day you first opened the Daily Hall) and your settings (music, sound, haptics, language, graphics and similar options). This file is not sent to us. If you use Google Play Games, a copy is also backed up to your Google account (see section 4). Uninstalling the game or clearing its data deletes it.</p>
 
 <h2>2. Advertising (Google AdMob)</h2>
 <p>The game offers rewarded video ads that you choose to watch, for example to get extra hints. These ads are provided by Google AdMob. When an ad is requested or shown, the Google Mobile Ads SDK may collect and share with Google:</p>
@@ -54,8 +54,14 @@
 <h2>3. Consent in the EEA, UK and Switzerland</h2>
 <p>If you are in the European Economic Area, the United Kingdom or Switzerland, the game shows Google's consent form (Google User Messaging Platform) before ads are loaded. You can choose whether Google may use your data for personalised ads. If you decline, ads may still be shown, but they are not personalised. Your choice is stored on your device by Google's consent SDK. To change it, you can clear the game's data or reinstall the game, and the form will be shown again.</p>
 
-<h2>4. Google Play Games (when available)</h2>
-<p>Some versions of the game may let you sign in to Google Play Games to back up your progress to the cloud and keep it in sync across devices. If you use this feature, the game reads your Play Games player profile to sign you in and stores a copy of your save file in your Google Play Games Saved Games, under your Google account. This data is held by Google under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. We do not receive your email address. You can delete the saved game data from your Google account at any time through the Google Play Games settings.</p>
+<h2>4. Google Play Games cloud saves</h2>
+<p>The game uses Google Play Games Services to back up your progress to the cloud, so it follows you to a new phone or a reinstall. If you are signed in to Google Play Games on your device, the game is signed in automatically when it starts. It then:</p>
+<ul>
+  <li>receives your Play Games player ID so it can find your saved game;</li>
+  <li>stores a copy of your save file (the same progress and settings described in section 1) as a saved game called "Voxelia progress" in your Google Play Games Saved Games, under your Google account;</li>
+  <li>updates that copy while you play and when the game goes to the background, and reads it back after sign-in to merge it with your local progress.</li>
+</ul>
+<p>This data is stored by Google and handled under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. We do not receive your email address or access your Google account beyond your Play Games profile and this saved game. If you are not signed in to Play Games, nothing is uploaded and your progress stays only on your device. You can delete the cloud copy at any time from the Google Play Games app or your Google account settings (Data &amp; privacy → Google Play Games), or turn off Play Games sign-in for the app.</p>
 
 <h2>5. Google Play</h2>
 <p>When you install the game from Google Play, Google may share anonymous crash reports and app performance data (Android vitals) with us through the Google Play Console. This data does not identify you.</p>
@@ -69,7 +75,7 @@
   <tbody>
     <tr><td>Advertising ID, IP address, device info, ad interactions, diagnostics</td><td>Google AdMob</td><td>Showing and measuring ads, fraud prevention</td><td>Only collected when ads are requested; personalisation needs consent where required by law</td></tr>
     <tr><td>Game progress and settings</td><td>Stored on your device only</td><td>Saving your game</td><td>Needed for the game to work</td></tr>
-    <tr><td>Play Games profile and cloud save</td><td>Google Play Games</td><td>Cloud backup and sync</td><td>Yes, only if you sign in</td></tr>
+    <tr><td>Play Games player ID and a copy of your game progress</td><td>Google Play Games</td><td>Cloud backup and sync of your progress</td><td>Only when you are signed in to Play Games</td></tr>
   </tbody>
 </table>
 
