@@ -30,11 +30,11 @@
 <body>
 <main>
 <h1>Voxelia Privacy Policy</h1>
-<p class="meta">Effective date: 9 October 2026</p>
+<p class="meta">Effective date: 11 October 2026</p>
 
 <p>This policy explains what information the Voxelia mobile game ("the game", "we", "us") collects, how it is used, and the choices you have. Voxelia is developed by <strong>Wasilisk</strong>.</p>
 
-<p>In short: the game itself has no accounts, does not ask for your name, email or location, and does not run its own servers. Your puzzle progress is stored on your device and, if you are signed in to Google Play Games, backed up to your Google account. The game shows optional rewarded video ads through Google AdMob, and Google collects some device data to serve those ads.</p>
+<p>In short: the game itself has no accounts, does not ask for your name, email or location, and does not run its own servers. Your puzzle progress is stored on your device and, if you are signed in to Google Play Games, backed up to your Google account. The game shows optional rewarded video ads through Google AdMob, and Google collects some device data to serve those ads. The game also uses Google Firebase to collect anonymous gameplay statistics (for example, which levels are started, solved or left unfinished) and crash reports, so we can find bugs and see which puzzles are too hard. Where the law requires it, gameplay statistics are only collected with your consent.</p>
 
 <h2>1. Information stored on your device</h2>
 <p>The game keeps a save file on your device with your puzzle progress (solved levels, stars, unfinished grids, unlocked packs, the hints you have left, which tips you have seen, the day you first opened the Daily Hall) and your settings (music, sound, haptics, language, graphics and similar options). This file is not sent to us. If you use Google Play Games, a copy is also backed up to your Google account (see section 4). Uninstalling the game or clearing its data deletes it.</p>
@@ -52,7 +52,12 @@
 <p>You can reset or delete your Advertising ID, or opt out of personalised ads, in your Android settings (Settings → Google → Ads, or Settings → Privacy → Ads, depending on your device).</p>
 
 <h2>3. Consent in the EEA, UK and Switzerland</h2>
-<p>If you are in the European Economic Area, the United Kingdom or Switzerland, the game shows Google's consent form (Google User Messaging Platform) before ads are loaded. You can choose whether Google may use your data for personalised ads. If you decline, ads may still be shown, but they are not personalised. Your choice is stored on your device by Google's consent SDK. To change it, you can clear the game's data or reinstall the game, and the form will be shown again.</p>
+<p>If you are in the European Economic Area, the United Kingdom or Switzerland, the game shows Google's consent form (Google User Messaging Platform) when it starts. Your choices on this form apply to both advertising and gameplay statistics:</p>
+<ul>
+  <li><strong>Ads:</strong> you choose whether Google may use your data for personalised ads. If you decline, ads may still be shown, but they are not personalised.</li>
+  <li><strong>Gameplay statistics (Firebase Analytics, see section 5):</strong> statistics are only sent if you allow storing and accessing information on your device. Until you have answered, nothing is sent. If you decline, or the form cannot be shown, no gameplay statistics are sent from your device.</li>
+</ul>
+<p>Your choice is stored on your device by Google's consent SDK. You can change it at any time in the game under <strong>Settings → Help &amp; feedback → Privacy choices</strong>, which shows the form again and applies your new answer straight away. Outside these regions, no consent form is shown and gameplay statistics are collected as described in section 5.</p>
 
 <h2>4. Google Play Games cloud saves</h2>
 <p>The game uses Google Play Games Services to back up your progress to the cloud, so it follows you to a new phone or a reinstall. If you are signed in to Google Play Games on your device, the game is signed in automatically when it starts. It then:</p>
@@ -63,35 +68,54 @@
 </ul>
 <p>This data is stored by Google and handled under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. We do not receive your email address or access your Google account beyond your Play Games profile and this saved game. If you are not signed in to Play Games, nothing is uploaded and your progress stays only on your device. You can delete the cloud copy at any time from the Google Play Games app or your Google account settings (Data &amp; privacy → Google Play Games), or turn off Play Games sign-in for the app.</p>
 
-<h2>5. Google Play</h2>
+<h2>5. Gameplay statistics and crash reports (Google Firebase)</h2>
+<p>The game uses two Google Firebase services to understand how the game is played and to fix problems. Firebase is provided by Google, which processes this data on our behalf.</p>
+<p><strong>Firebase Analytics</strong> collects anonymous gameplay statistics:</p>
+<ul>
+  <li>game events: when the game is opened, which level is started, solved or left unfinished (with the level name, its difficulty, how many layers were finished and how many minutes it took), hints used, rewarded ads watched for a hint or to open a level, Daily Hall visits, and progress through the tutorial;</li>
+  <li>events Firebase records automatically, such as first launch, app updates, time spent in the app and uninstalls;</li>
+  <li>device and app information: device model, operating system version, language, app version and approximate country (derived from your IP address, which Google does not store for Analytics);</li>
+  <li>a random app-instance ID that Firebase creates for this installation. It is not linked to your name, email or Google account, and it changes if you reinstall the game or clear its data.</li>
+</ul>
+<p>In the EEA, UK and Switzerland, Analytics only runs with your consent (see section 3). Firebase Analytics data is used only to improve the game, for example to find puzzles that are too hard or a tutorial step where players get stuck. It is not used for advertising by us.</p>
+<p><strong>Firebase Crashlytics</strong> collects crash reports when the game crashes or stops unexpectedly: a technical description of the error, device model, operating system version, app version, free memory and storage, the level being played and the last few game events before the crash, and a random installation ID. Crash reports contain no personal information and are used only to find and fix bugs. They are collected in all regions, because they are needed to keep the game working.</p>
+<p>Google keeps Analytics data according to the retention period set for the project and crash reports for up to 90 days. Google's handling of this data is described in <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
+
+<h2>6. Google Play</h2>
 <p>When you install the game from Google Play, Google may share anonymous crash reports and app performance data (Android vitals) with us through the Google Play Console. This data does not identify you.</p>
 
-<h2>6. What we do not collect</h2>
-<p>We do not collect your name, email address, phone number, contacts, photos, precise location or payment information, and we do not sell personal information. The game has no in-app purchases at this time and no chat or social features.</p>
+<h2>7. Feedback emails</h2>
+<p>The game has a "Send feedback" button in Settings that opens your own email app with a message addressed to us. If you choose to send it, we receive your email address and whatever you write, and use them only to reply and to improve the game. We do not add you to any mailing list. You can ask us to delete your emails at any time.</p>
 
-<h2>7. Summary of data handling</h2>
+<h2>8. What we do not collect</h2>
+<p>We do not collect your name, phone number, contacts, photos, precise location or payment information (we only see your email address if you send us feedback), and we do not sell personal information. The game has no in-app purchases at this time and no chat or social features.</p>
+
+<h2>9. Summary of data handling</h2>
 <table>
   <thead><tr><th>Data</th><th>Collected by</th><th>Purpose</th><th>Optional?</th></tr></thead>
   <tbody>
     <tr><td>Advertising ID, IP address, device info, ad interactions, diagnostics</td><td>Google AdMob</td><td>Showing and measuring ads, fraud prevention</td><td>Only collected when ads are requested; personalisation needs consent where required by law</td></tr>
+    <tr><td>Gameplay events, device and app info, app-instance ID</td><td>Google Firebase Analytics</td><td>Understanding how the game is played and improving it</td><td>Needs consent in the EEA, UK and Switzerland; can be changed under Privacy choices</td></tr>
+    <tr><td>Crash reports, device and app info, recent game events</td><td>Google Firebase Crashlytics</td><td>Finding and fixing crashes</td><td>Collected only when the game crashes</td></tr>
     <tr><td>Game progress and settings</td><td>Stored on your device only</td><td>Saving your game</td><td>Needed for the game to work</td></tr>
     <tr><td>Play Games player ID and a copy of your game progress</td><td>Google Play Games</td><td>Cloud backup and sync of your progress</td><td>Only when you are signed in to Play Games</td></tr>
+    <tr><td>Your email address and message</td><td>Us, only if you send feedback</td><td>Replying to you</td><td>Only if you choose to email us</td></tr>
   </tbody>
 </table>
 
-<h2>8. Children</h2>
+<h2>10. Children</h2>
 <p>Voxelia is not directed at children under 13, and we do not knowingly collect personal information from them. If you believe a child under 13 has provided personal information through the game, please contact us and we will help remove it.</p>
 
-<h2>9. Data security and retention</h2>
-<p>Data sent to Google is transmitted over encrypted connections and kept according to Google's own retention policies. Data stored on your device remains until you delete the game or its data.</p>
+<h2>11. Data security and retention</h2>
+<p>Data sent to Google is transmitted over encrypted connections and kept according to Google's own retention policies (see sections 2 and 5). Data stored on your device remains until you delete the game or its data.</p>
 
-<h2>10. Your rights</h2>
-<p>Depending on where you live (for example under the GDPR in the EU or UK), you may have the right to access, correct or delete your personal data, to object to or restrict its processing, and to withdraw consent. Because we do not hold personal data that identifies you, most requests are best directed to Google through <a href="https://myaccount.google.com/">your Google Account</a>. You can also contact us and we will help where we can.</p>
+<h2>12. Your rights</h2>
+<p>Depending on where you live (for example under the GDPR in the EU or UK), you may have the right to access, correct or delete your personal data, to object to or restrict its processing, and to withdraw consent. You can withdraw consent for gameplay statistics at any time under Settings → Help &amp; feedback → Privacy choices. Because we do not hold personal data that identifies you, most requests are best directed to Google through <a href="https://myaccount.google.com/">your Google Account</a>. You can also contact us and we will help where we can, including deleting the Analytics data linked to your installation.</p>
 
-<h2>11. Changes to this policy</h2>
+<h2>13. Changes to this policy</h2>
 <p>We may update this policy when the game changes, for example when a new feature or service is added. The new version will be posted on this page with an updated effective date.</p>
 
-<h2>12. Contact</h2>
+<h2>14. Contact</h2>
 <p>If you have questions about this policy, contact <strong>Wasilisk</strong> at <a href="mailto:vasylpetryna2002@gmail.com">vasylpetryna2002@gmail.com</a>.</p>
 </main>
 </body>
